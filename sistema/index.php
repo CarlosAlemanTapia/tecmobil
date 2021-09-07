@@ -43,12 +43,12 @@
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
 		      	
-		      	<form action="#logica/loguear.php" class="signin-form">
+		      	<form action="php/login.php" method="post" class="signin-form">
 		      		<div class="form-group">
-		      			<input type="text" class="form-control" placeholder="Username" required>
+		      			<input type="text" class="form-control" placeholder="Username" name="usuario" id="usuario" required>
 		      		</div>
 	            <div class="form-group">
-	              <input id="password-field" type="password" class="form-control" placeholder="Password" required>
+	              <input id="password-field" type="password" name="password" id="password" class="form-control" placeholder="Password" required>
 	              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 	            </div>
 	            <br>
